@@ -36,6 +36,7 @@ export const { createApp } = createRenderer<Container, Container>({
         (el as Sprite).texture = Texture.from(nextValue);
         break;
       default:
+        el[key] = nextValue;
         break;
     }
   },

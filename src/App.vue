@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import logo from './assets/plane.png'
+import Plane from "./components/Plane.vue";
 </script>
 
 <template>
-  <Container>
-    <Sprite :texture="logo"></Sprite>
-  </Container>
+  <Container><Plane></Plane></Container>
 </template>
